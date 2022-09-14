@@ -1,7 +1,7 @@
 # Under Development Laravel 9 Vet Clinic Project
 <br>
 <strong>Technologies Used : </strong><br>
-- Laravel 9
+- Laravel 9 <br>
 - TailwindCSS
 
 <<<<<<< HEAD
