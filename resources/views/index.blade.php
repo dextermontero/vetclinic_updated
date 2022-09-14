@@ -16,7 +16,7 @@
                     </div>
                     <div class="grid grid-cols-2 lg:grid-cols-4 gap-8">
                         <a href="#" class="group">
-                            <div class="bg-gray-200 rounded-t-lg border-b-4 group-hover:border-b-4 group-hover:border-green-800">
+                            <div class="bg-gray-200 rounded-t-lg border-b-4 group-hover:border-b-4 group-hover:border-green-800 transition duration-300">
                                 <div class="bg-cover bg-center">
                                     <img src="img/cover.png" class="rounded-t-lg h-56 w-screen">
                                 </div>
@@ -26,13 +26,13 @@
                                     </span>
                                     <p class="text-gray-500 text-justify hidden lg:block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum accumsan sem est. Maecenas ut imperdiet nibh. Etiam non molestie nulla.</p>
                                     <div class="mt-3 lg:mt-5">
-                                        <span class="group-hover:bg-green-700 p-2 rounded group-hover:text-white">Read More ...</span>
+                                        <span class="group-hover:bg-green-700 p-2 rounded group-hover:text-white transition duration-300">Read More ...</span>
                                     </div>
                                 </div>
                             </div>
                         </a>
                         <a href="#" class="group">
-                            <div class="bg-gray-200 rounded-t-lg border-b-4 group-hover:border-b-4 group-hover:border-green-800">
+                            <div class="bg-gray-200 rounded-t-lg border-b-4 group-hover:border-b-4 group-hover:border-green-800 transition duration-300">
                                 <div class="bg-cover bg-center">
                                     <img src="img/cover.png" class="rounded-t-lg h-56 w-screen">
                                 </div>
@@ -42,13 +42,13 @@
                                     </span>
                                     <p class="text-gray-500 text-justify hidden lg:block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum accumsan sem est. Maecenas ut imperdiet nibh. Etiam non molestie nulla.</p>
                                     <div class="mt-3 lg:mt-5">
-                                        <span class="group-hover:bg-green-700 p-2 rounded group-hover:text-white">Read More ...</span>
+                                        <span class="group-hover:bg-green-700 p-2 rounded group-hover:text-white transition duration-300">Read More ...</span>
                                     </div>
                                 </div>
                             </div>
                         </a>
                         <a href="#" class="group">
-                            <div class="bg-gray-200 rounded-t-lg border-b-4 group-hover:border-b-4 group-hover:border-green-800">
+                            <div class="bg-gray-200 rounded-t-lg border-b-4 group-hover:border-b-4 group-hover:border-green-800 transition duration-300">
                                 <div class="bg-cover bg-center">
                                     <img src="img/cover.png" class="rounded-t-lg h-56 w-screen">
                                 </div>
@@ -58,13 +58,13 @@
                                     </span>
                                     <p class="text-gray-500 text-justify hidden lg:block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum accumsan sem est. Maecenas ut imperdiet nibh. Etiam non molestie nulla.</p>
                                     <div class="mt-3 lg:mt-5">
-                                        <span class="group-hover:bg-green-700 p-2 rounded group-hover:text-white">Read More ...</span>
+                                        <span class="group-hover:bg-green-700 p-2 rounded group-hover:text-white transition duration-300">Read More ...</span>
                                     </div>
                                 </div>
                             </div>
                         </a>
                         <a href="#" class="group">
-                            <div class="bg-gray-200 rounded-t-lg border-b-4 group-hover:border-b-4 group-hover:border-green-800">
+                            <div class="bg-gray-200 rounded-t-lg border-b-4 group-hover:border-b-4 group-hover:border-green-800 transition duration-300">
                                 <div class="bg-cover bg-center">
                                     <img src="img/cover.png" class="rounded-t-lg h-56 w-screen">
                                 </div>
@@ -74,14 +74,14 @@
                                     </span>
                                     <p class="text-gray-500 text-justify hidden lg:block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum accumsan sem est. Maecenas ut imperdiet nibh. Etiam non molestie nulla.</p>
                                     <div class="mt-3 lg:mt-5">
-                                        <span class="group-hover:bg-green-700 p-2 rounded group-hover:text-white">Read More ...</span>
+                                        <span class="group-hover:bg-green-700 p-2 rounded group-hover:text-white transition duration-300">Read More ...</span>
                                     </div>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <a href="/services" class="flex justify-center">
-                        <div class="rounded-full text-center mt-20 p-3 border-2 border-green-800 hover:bg-green-800 hover:text-white">
+                        <div class="rounded-full text-center mt-20 p-3 border-2 font-semibold border-green-800 hover:bg-green-800 hover:text-white transition duration-300">
                             View More
                         </div>
                     </a>
@@ -159,13 +159,13 @@
                         <h3 class="uppercase font-extrabold text-4xl">Latest Blogs</h3>
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8">
-                        <a href="#as">
-                            <div class="bg-gray-200 group rounded-l-lg rounded-t-lg">
+                        <a href="#as" class="group">
+                            <div class="bg-gray-200 rounded-l-lg rounded-t-lg border-b-4 group-hover:border-b-4 group-hover:border-green-800 transition duration-300">
                                 <div class="bg-cover bg-center">
-                                    <img src="img/cover.png" class="rounded-l-lg rounded-t-lg w-screen h-64">
+                                    <img src="img/cover.png" class="rounded-t-lg w-screen h-64">
                                 </div>
                                 <div class="p-4">
-                                    <div class="uppercase tracking-wide p-1 text-xl text-gray-800 group-hover:text-green-700 font-bold">
+                                    <div class="uppercase tracking-wide p-1 text-xl text-gray-800 group-hover:text-green-700 font-bold transition duration-300">
                                         <p class="truncate">asdsadsadasdasdasdasasqweasdasdas</p>
                                     </div>
                                     <div class="grid grid-cols-1 md:grid-cols-2 gap-2 mt-1 p-1">
@@ -185,18 +185,18 @@
 
                                     <p class="mt-2 text-slate-500 p-1 text-justify">If they have longer hair, brush them every day. Cat brushes come in a variety of styles that may be found</p>
                                     <div class="mt-6 mb-3 lg:mt-5">
-                                        <span class="group-hover:bg-green-700 p-2 rounded group-hover:text-white">Read More ...</span>
+                                        <span class="group-hover:bg-green-700 p-2 rounded group-hover:text-white transition duration-300">Read More</span>
                                     </div>
                                 </div>
                             </div>
                         </a>
-                        <a href="#as">
-                            <div class="bg-gray-200 group rounded-l-lg rounded-t-lg">
+                        <a href="#as" class="group">
+                            <div class="bg-gray-200 rounded-l-lg rounded-t-lg border-b-4 group-hover:border-b-4 group-hover:border-green-800 transition duration-300">
                                 <div class="bg-cover bg-center">
-                                    <img src="img/cover.png" class="rounded-l-lg rounded-t-lg w-screen h-64">
+                                    <img src="img/cover.png" class="rounded-t-lg w-screen h-64">
                                 </div>
                                 <div class="p-4">
-                                    <div class="uppercase tracking-wide p-1 text-xl text-gray-800 group-hover:text-green-700 font-bold">
+                                    <div class="uppercase tracking-wide p-1 text-xl text-gray-800 group-hover:text-green-700 font-bold transition duration-300">
                                         <p class="truncate">asdsadsadasdasdasdasasqweasdasdas</p>
                                     </div>
                                     <div class="grid grid-cols-1 md:grid-cols-2 gap-2 mt-1 p-1">
@@ -216,18 +216,18 @@
 
                                     <p class="mt-2 text-slate-500 p-1 text-justify">If they have longer hair, brush them every day. Cat brushes come in a variety of styles that may be found</p>
                                     <div class="mt-6 mb-3 lg:mt-5">
-                                        <span class="group-hover:bg-green-700 p-2 rounded group-hover:text-white">Read More ...</span>
+                                        <span class="group-hover:bg-green-700 p-2 rounded group-hover:text-white transition duration-300">Read More</span>
                                     </div>
                                 </div>
                             </div>
                         </a>
-                        <a href="#as">
-                            <div class="bg-gray-200 group rounded-l-lg rounded-t-lg">
+                        <a href="#as" class="group">
+                            <div class="bg-gray-200 rounded-l-lg rounded-t-lg border-b-4 group-hover:border-b-4 group-hover:border-green-800 transition duration-300">
                                 <div class="bg-cover bg-center">
-                                    <img src="img/cover.png" class="rounded-l-lg rounded-t-lg w-screen h-64">
+                                    <img src="img/cover.png" class="rounded-t-lg w-screen h-64">
                                 </div>
                                 <div class="p-4">
-                                    <div class="uppercase tracking-wide p-1 text-xl text-gray-800 group-hover:text-green-700 font-bold">
+                                    <div class="uppercase tracking-wide p-1 text-xl text-gray-800 group-hover:text-green-700 font-bold transition duration-300">
                                         <p class="truncate">asdsadsadasdasdasdasasqweasdasdas</p>
                                     </div>
                                     <div class="grid justify-between grid-cols-1 lg:grid-cols-2 gap-2 mt-1 p-1">
@@ -247,7 +247,7 @@
 
                                     <p class="mt-2 text-slate-500 p-1 text-justify">If they have longer hair, brush them every day. Cat brushes come in a variety of styles that may be found</p>
                                     <div class="mt-6 mb-3 lg:mt-5">
-                                        <span class="group-hover:bg-green-700 p-2 rounded group-hover:text-white">Read More ...</span>
+                                        <span class="group-hover:bg-green-700 p-2 rounded group-hover:text-white transition duration-300">Read More</span>
                                     </div>
                                 </div>
                             </div>

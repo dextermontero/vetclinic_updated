@@ -2,7 +2,7 @@
         <div class="grid grid-cols-1 gaps-2 py-10">
             <div class="col-span-2">
                 <div class="container mx-auto w-10/12">
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
                         <div class="m-5">
                             <div class="inline-flex items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-700">
