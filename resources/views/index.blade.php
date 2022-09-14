@@ -160,9 +160,9 @@
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8">
                         <a href="#as">
-                            <div class="bg-gray-200 group">
+                            <div class="bg-gray-200 group rounded-l-lg rounded-t-lg">
                                 <div class="bg-cover bg-center">
-                                    <img src="img/cover.png" class="w-screen h-64">
+                                    <img src="img/cover.png" class="rounded-l-lg rounded-t-lg w-screen h-64">
                                 </div>
                                 <div class="p-4">
                                     <div class="uppercase tracking-wide p-1 text-xl text-gray-800 group-hover:text-green-700 font-bold">
@@ -191,9 +191,9 @@
                             </div>
                         </a>
                         <a href="#as">
-                            <div class="bg-gray-200 group">
+                            <div class="bg-gray-200 group rounded-l-lg rounded-t-lg">
                                 <div class="bg-cover bg-center">
-                                    <img src="img/cover.png" class="w-screen h-64">
+                                    <img src="img/cover.png" class="rounded-l-lg rounded-t-lg w-screen h-64">
                                 </div>
                                 <div class="p-4">
                                     <div class="uppercase tracking-wide p-1 text-xl text-gray-800 group-hover:text-green-700 font-bold">
@@ -222,9 +222,9 @@
                             </div>
                         </a>
                         <a href="#as">
-                            <div class="bg-gray-200 group">
+                            <div class="bg-gray-200 group rounded-l-lg rounded-t-lg">
                                 <div class="bg-cover bg-center">
-                                    <img src="img/cover.png" class="w-screen h-64">
+                                    <img src="img/cover.png" class="rounded-l-lg rounded-t-lg w-screen h-64">
                                 </div>
                                 <div class="p-4">
                                     <div class="uppercase tracking-wide p-1 text-xl text-gray-800 group-hover:text-green-700 font-bold">
