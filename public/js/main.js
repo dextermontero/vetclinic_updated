@@ -15,6 +15,8 @@ $('#petList').slick({
     slidesToScroll: 4,
     autoplay: true,
     autoplaySpeed: 3000,
+    prevArrow: null,
+    nextArrow: null,
     pauseOnHover:false,
     responsive: [
         {

@@ -85,17 +85,17 @@
                             </div>
                             <div class="mt-2 text-justify in">
                                 <div class="inline-flex">
-                                    <a href="#facebook" class="cursor-pointer p-2 border-2 border-green-700 w-10 items-center text-center mr-2 hover:bg-green-700 hover:text-gray-50">
-                                        F
+                                    <a href="#facebook" target="_blank" class="cursor-pointer p-2 w-10 items-center text-center mr-2 border-2 border-neutral-100 hover:border-2 hover:border-green-700 hover:bg-neutral-200">
+                                        <img src="{{ asset('img/socmed_icons/facebook.png') }}" alt="Social Media Icon Free by https://www.iconfinder.com/">
                                     </a>
-                                    <a href="#twitter" class="cursor-pointer p-2 border-2 border-green-700 w-10 items-center text-center mr-2 hover:bg-green-700 hover:text-gray-50">
-                                        T
+                                    <a href="#facebook" target="_blank" class="cursor-pointer p-2 w-10 items-center text-center mr-2 border-2 border-neutral-100 hover:border-2 hover:border-green-700 hover:bg-neutral-200">
+                                        <img src="{{ asset('img/socmed_icons/twitter.png') }}" alt="Social Media Icon Free by https://www.iconfinder.com/">
                                     </a>
-                                    <a href="#instagram" class="cursor-pointer p-2 border-2 border-green-700 w-10 items-center text-center mr-2 hover:bg-green-700 hover:text-gray-50">
-                                        I
+                                    <a href="#facebook" target="_blank" class="cursor-pointer p-2 w-10 items-center text-center mr-2 border-2 border-neutral-100 hover:border-2 hover:border-green-700 hover:bg-neutral-200">
+                                        <img src="{{ asset('img/socmed_icons/instagram.png') }}" alt="Social Media Icon Free by https://www.iconfinder.com/">
                                     </a>
-                                    <a href="#linkedin" class="cursor-pointer p-2 border-2 border-green-700 w-10 items-center text-center mr-2 hover:bg-green-700 hover:text-gray-50">
-                                        L
+                                    <a href="#facebook" target="_blank" class="cursor-pointer p-2 w-10 items-center text-center mr-2 border-2 border-neutral-100 hover:border-2 hover:border-green-700 hover:bg-neutral-200">
+                                        <img src="{{ asset('img/socmed_icons/linkedin.png') }}" alt="Social Media Icon Free by https://www.iconfinder.com/">
                                     </a>
                                 </div>
                             </div>
@@ -110,8 +110,8 @@
         </div>
     </footer>
     
-    <script src="js/jquery.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
+    <script src="{{ asset('js/slick.min.js') }}"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
 </body>
 </html>

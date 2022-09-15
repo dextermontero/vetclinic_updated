@@ -2,7 +2,7 @@
         <div class="flex flex-wrap justify-between items-center lg:p-2 z-50">
             <a href="/" class="">
                 <div class="inline-flex items-center ml-5 mt-1 lg:pr-5 lg:ml-14">
-                    <img src="img/logo.png" class="h-16 w-16">
+                    <img src="{{ asset('img/logo.png') }}" class="h-16 w-16">
                     <span class="hidden lg:block ml-4 text-3xl font-bold">Vet Clinic</span>
                 </div>
             </a>
