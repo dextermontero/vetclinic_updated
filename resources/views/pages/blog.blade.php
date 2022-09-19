@@ -4,7 +4,7 @@
         <article class="py-10 grid grid-cols-1 gap-2 mb-10">
             <div class="col-span-2">
                 <div class="container mx-auto">
-                    <div class="mt-10 mb-10 ml-4 sm:ml-24 md:ml-0 lg:ml-0 xl:ml-14">
+                    <div class="mb-10 ml-4 sm:ml-24 md:ml-0 lg:ml-0 xl:ml-14">
                         <h3 class="uppercase font-extrabold text-4xl ">Latest Blogs</h3>
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -12,10 +12,10 @@
                     </a>
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
                         <div class="bg-cover bg-center shadow-lg rounded">
-                            <img src="{{ asset('img/services/'.$services->image.'')}} " alt="{{ $services->title}}" class="rounded h-97 w-screen">
+                            <img src="{{ asset('img/services/'.$services->image.'')}}" alt="{{ $services->title}}" class="rounded h-97 w-screen">
                         </div>
                         <div class="">
-                            <h3 class="uppercase font-extrabold text-4xl ">{{ $services->title }}</h3>
+                            <h3 class="uppercase font-extrabold text-4xl">{{ $services->title }}</h3>
                             <span class="text-2xl font-bold">₱  {{ number_format($services->cost) }}</span>
                             <div class="pt-2 border-2 h-80 overflow-y-auto">
                                 <p class="text-gray-500 text-justify">{{ $services->description }}</p>

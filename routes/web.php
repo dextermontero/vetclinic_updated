@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\BlogsController;
 use App\Http\Controllers\ServicesController;
+use App\Http\Controllers\UserController;
 use App\Models\Blogs;
 use App\Models\Services;
 use Illuminate\Support\Facades\Route;
@@ -37,7 +38,9 @@ Route::controller(BlogsController::class)->group(function() {
 });
 
 
+// User Controller
 
+Route::post('/login', [UserController::class, 'loginProcess']);
 
 
 // OLD ROUTING

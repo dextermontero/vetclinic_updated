@@ -9,10 +9,10 @@
                     </div>
                     <div class="grid grid-cols-2 lg:grid-cols-4 gap-8">
                         @foreach ($services as $service)
-                            <a href="/services/{{ $service->id }}" class="group ">
+                            <a href="/services/{{ $service->id }}" class="group">
                                 <div class="bg-white rounded-t-lg shadow-lg border-b-4 group-hover:border-b-4 group-hover:border-green-800 transition duration-300">
                                     <div class="bg-cover bg-center">
-                                        <img src="{{ asset('img/services/'.$service->image.'')}} " alt="{{ $service->title}}" class="rounded-t-lg h-56 w-screen">
+                                        <img src="{{ asset('img/services/'.$service->image.'')}}" alt="{{ $service->title}}" class="rounded-t-lg h-56 w-screen">
                                     </div>
                                     <div class="p-5">
                                         <span class="uppercase tracking-wide font-semibold">

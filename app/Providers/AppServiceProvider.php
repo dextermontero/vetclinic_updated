@@ -40,7 +40,7 @@ class AppServiceProvider extends ServiceProvider
             $services->with('services', Services::where('status', 1)->where('archive', 0)->inRandomOrder()->limit(4)->get());
         });
 
-       /*  View::composer('index', function($pets){
+        /*  View::composer('index', function($pets){
             $pets->with('pets', Pets::where('status', 1)->where('archive', 0)->inRandomOrder()->limit(4)->get());
         }); */
         

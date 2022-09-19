@@ -1,5 +1,4 @@
 @include("partials.header", [$title])
-    <div class="flex flex-col">
         <header class="bg-cover bg-center" id="header">
             <div><img src="https://images.unsplash.com/photo-1622737133809-d95047b9e673?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80" class="object-cover h-96 lg:h-100 w-screen"></div>
             <div><img src="https://images.unsplash.com/photo-1497384401032-2182d2687715?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="object-cover h-96 lg:h-100 w-screen"></div>

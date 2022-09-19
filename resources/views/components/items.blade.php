@@ -21,8 +21,10 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/login"  class="block p-5 rounded-t-lg hover:bg-green-700 hover:text-gray-50 lg:hover:border-green-700 lg:hover:text-white transition duration-300">
-                            LOGIN
-                        </a>
+                        <div class="cursor-pointer" id="showModal">
+                            <span class="block p-5 rounded-t-lg hover:bg-green-700 hover:text-gray-50 lg:hover:border-green-700 lg:hover:text-white transition duration-300">
+                                LOGIN
+                            </span>
+                        </div>
                     </li>
                 </ul>

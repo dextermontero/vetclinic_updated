@@ -1,3 +1,5 @@
+
+
     <footer class="bg-neutral-100 relative bottom-0 h-auto">
         <div class="grid grid-cols-1 gaps-2 py-10">
             <div class="col-span-2">
@@ -110,8 +112,9 @@
         </div>
     </footer>
     
-    <script src="{{ asset('js/jquery.min.js') }}"></script>
-    <script src="{{ asset('js/slick.min.js') }}"></script>
-    <script src="{{ asset('js/main.js') }}"></script>
+    {{-- <script src="{{ asset('js/jquery.min.js') }}"></script> --}}
+    {{-- <script src="{{ asset('js/slick.min.js') }}"></script>
+    <script src="{{ asset('js/main.js') }}"></script> --}}
+    {{-- <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script> --}}
 </body>
 </html>
