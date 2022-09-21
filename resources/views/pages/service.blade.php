@@ -1,5 +1,4 @@
 @include("partials.header", [$title])
-    
     <div class="flex flex-col ">
         <article id="services" class="py-10 grid grid-cols-1 gap-2">
             <div class="col-span-2">

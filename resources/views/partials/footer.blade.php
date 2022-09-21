@@ -111,9 +111,8 @@
             Vet Clinic and Petcare System Updated
         </div>
     </footer>
-    
     {{-- <script src="{{ asset('js/jquery.min.js') }}"></script> --}}
-    {{-- <script src="{{ asset('js/slick.min.js') }}"></script>
+    {{-- 
     <script src="{{ asset('js/main.js') }}"></script> --}}
     {{-- <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script> --}}
 </body>

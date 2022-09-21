@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use App\Models\Blogs;
 use App\Models\Services;
+use App\Models\UserData;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 
@@ -48,5 +49,11 @@ class AppServiceProvider extends ServiceProvider
             $blogs->with('blogs', Blogs::where('status', 1)->where('archive', 0)->orderBy('id', 'desc')->limit(3)->get());
         });
 
+
+
+
+        View::composer('pages.userpanel.index', function($index) {
+            $index->with('index', UserData::where('uid', auth()->user()->id)->get());
+        });
     }
 }

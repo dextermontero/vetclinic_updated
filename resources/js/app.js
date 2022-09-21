@@ -8,4 +8,4 @@ import 'slick-carousel/slick/slick-theme.css';
 //import './jquery.min.js';
 import './bootstrap';
 import './slick.min.js';
-import './main';
+import './main.js';
