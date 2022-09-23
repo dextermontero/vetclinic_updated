@@ -52,8 +52,8 @@ class AppServiceProvider extends ServiceProvider
 
 
 
-        View::composer('pages.userpanel.index', function($index) {
-            $index->with('index', UserData::where('uid', auth()->user()->id)->get());
+        View::composer('components.userSiderbar', function($userSiderbar) {
+            $userSiderbar->with('userSiderbar', UserData::where('uid', auth()->user()->id)->get());
         });
     }
 }

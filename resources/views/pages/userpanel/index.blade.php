@@ -1,61 +1,134 @@
 @include("partials.userpanel.components.header", [$title])
-    <div class="dark:bg-gray-200 text-black fixed lg:left-64 p-4 block">
-        <div class="cursor-pointer hover:dark:bg-gray-800 w-fit relative p-2 hover:text-white rounded lg:hidden" id="menuContent">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-            </svg>
+        <div class="bg-neutral-200 absolute lg:left-64 mt-4 ml-4 mr-4 w-fit">
+            <div class="mb-5">
+                <h3 class="font-bold text-4xl">Dashboard</h3>
+            </div>
+            <div class="mb-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-4 gap-0 sm:gap-4">
+                <div class="bg-white p-4 mb-5 rounded shadow-sm max-w-full">
+                    <div class="grid grid-cols-2 break-all items-center">
+                        <div class="flex justify-center items-center ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-20 h-20">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                            </svg>
+                        </div>
+                        <div class="font-bold">
+                            <p class="text-3xl">{{ number_format(100000000)}}</p>
+                            <span class="text-gray-500 text-lg">Pets</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-4 mb-5 rounded shadow-sm max-w-full">
+                    <div class="grid grid-cols-2 break-all items-center">
+                        <div class="flex justify-center items-center ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-20 h-20">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                            </svg>
+                        </div>
+                        <div class="font-bold">
+                            <p class="text-3xl">{{ number_format(100000000)}}</p>
+                            <span class="text-gray-500 text-lg">Pets</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-4 mb-5 rounded shadow-sm max-w-full">
+                    <div class="grid grid-cols-2 break-all items-center">
+                        <div class="flex justify-center items-center ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-20 h-20">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                            </svg>
+                        </div>
+                        <div class="font-bold">
+                            <p class="text-3xl">{{ number_format(100000000)}}</p>
+                            <span class="text-gray-500 text-lg">Pets</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-4 mb-5 rounded shadow-sm max-w-full">
+                    <div class="grid grid-cols-2 break-all items-center">
+                        <div class="flex justify-center items-center ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-20 h-20">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                            </svg>
+                        </div>
+                        <div class="font-bold">
+                            <p class="text-3xl">{{ number_format(100000000)}}</p>
+                            <span class="text-gray-500 text-lg">Pets</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-5">
+                <h3 class="font-bold text-4xl">All Appointments</h3>
+            </div>
+            <div class="bg-white p-4 mb-5 rounded shadow-sm max-w-full">
+                <table class="table-fixed w-full text-left p-2">
+                    <thead class="border-b dark:border-gray-900">
+                        <tr>
+                            <th class="text-lg p-4 pr-4 px-3 py-2 font-extrabold">Date</th>
+                            <th class="text-lg p-4 pr-4 px-3 py-2 font-extrabold">Service</th>
+                            <th class="text-lg p-4 pr-4 px-3 py-2 font-extrabold">Time</th>
+                            <th class="text-lg p-4 pr-4 px-3 py-2 font-extrabold">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="hover:bg-gray-100">
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-semibold">May 05, 2021</td>
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-semibold">Spay & Neuter (Kapon)</td>
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-semibold">2:00 PM</td>
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-bold">Scheduled</td>
+                        </tr>
+                        <tr class="hover:bg-gray-100">
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-semibold">May 05, 2021</td>
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-semibold">Spay & Neuter (Kapon)</td>
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-semibold">2:00 PM</td>
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-bold">Scheduled</td>
+                        </tr>
+                        <tr class="hover:bg-gray-100">
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-semibold">May 05, 2021</td>
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-semibold">Spay & Neuter (Kapon)</td>
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-semibold">2:00 PM</td>
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-bold">Scheduled</td>
+                        </tr>
+                        <tr class="hover:bg-gray-100">
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-semibold">May 05, 2021</td>
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-semibold">Spay & Neuter (Kapon)</td>
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-semibold">2:00 PM</td>
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-bold">Scheduled</td>
+                        </tr>
+                        <tr class="hover:bg-gray-100">
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-semibold">May 05, 2021</td>
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-semibold">Spay & Neuter (Kapon)</td>
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-semibold">2:00 PM</td>
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-bold">Scheduled</td>
+                        </tr>
+                        <tr class="hover:bg-gray-100">
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-semibold">May 05, 2021</td>
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-semibold">Spay & Neuter (Kapon)</td>
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-semibold">2:00 PM</td>
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-bold">Scheduled</td>
+                        </tr>
+                        <tr class="hover:bg-gray-100">
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-semibold">May 05, 2021</td>
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-semibold">Spay & Neuter (Kapon)</td>
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-semibold">2:00 PM</td>
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-bold">Scheduled</td>
+                        </tr>
+                        <tr class="hover:bg-gray-100">
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-semibold">May 05, 2021</td>
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-semibold">Spay & Neuter (Kapon)</td>
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-semibold">2:00 PM</td>
+                            <td class="text-md p-4 pr-4 px-3 py-2 font-bold">Scheduled</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="mb-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-4 break-all">
+                <div class="bg-white p-4 rounded shadow-sm max-w-full">
+                    asdasdasdasd;lasdl;askd;lsakd;l;alksd;laskd;laskd;lask ;la;skld;askd;aslk;laksd;lsakd;lsakdl;sak;lkasdl;askdl;askd;laskd;laskd;laskd;laskd;lsakd;lsa
+                </div>
+                <div class="bg-white p-4 rounded shadow-sm max-w-full">
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="bg-neutral-200 fixed top-16 lg:left-64 p-4">
-        <div class="mb-5">
-            <h3 class="uppercase font-extrabold text-4xl ">Dashboard</h3>
-        </div>
-        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-            <div class="bg-white rounded">
-                <div class="flex flex-col xl:flex-row p-4 items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
-                    </svg>
-                    <div class="sm:ml-4">
-                        <p class="font-extrabold text-2xl">{{ number_format(100000000000)}}</p>
-                        <span class="text-gray-500">Total User</span>
-                    </div>
-                  </div>
-            </div>
-            <div class="bg-white rounded">
-                <div class="flex flex-col xl:flex-row p-4 items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
-                    </svg>
-                    <div class="sm:ml-4">
-                        <p class="font-extrabold text-2xl">{{ number_format(100000000000)}}</p>
-                        <span class="text-gray-500">Total User</span>
-                    </div>
-                  </div>
-            </div>
-            <div class="bg-white rounded">
-                <div class="flex flex-col xl:flex-row p-4 items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
-                    </svg>
-                    <div class="sm:ml-4">
-                        <p class="font-extrabold text-2xl">{{ number_format(100000000000)}}</p>
-                        <span class="text-gray-500">Total User</span>
-                    </div>
-                  </div>
-            </div>
-            <div class="bg-white rounded">
-                <div class="flex flex-col xl:flex-row p-4 items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
-                    </svg>
-                    <div class="sm:ml-4">
-                        <p class="font-extrabold text-2xl">{{ number_format(100000000000)}}</p>
-                        <span class="text-gray-500">Total User</span>
-                    </div>
-                  </div>
-            </div>
-        </div>
-    </div>
 @include("partials.userpanel.components.footer")
 
