@@ -50,7 +50,7 @@
                 <div class="overflow-x-hidden flex items-center justify-start" id="petList">
                     <div class="flex-none bg-white w-96 rounded-t-2xl rounded-l-2xl mr-5 ml-5">
                         <div class="p-0 m-0 bg-cover bg-center">
-                            <img src="img/cover.png" class="rounded-t-2xl object-cover h-80 w-full lg:w-full lg:h-80">
+                            <img src="img/pets/pet_1.jpg" class="rounded-t-2xl object-cover h-80 w-full lg:w-full lg:h-80">
                         </div>
                         <div class="p-5 text-center">
                             <h3 class="font-bold text-xl">PET NAME</h3>
@@ -59,7 +59,7 @@
                     </div>
                     <div class="flex-none bg-white w-96 rounded-t-2xl rounded-l-2xl mr-5 ml-5">
                         <div class="p-0 m-0 bg-cover bg-center">
-                            <img src="img/cover.png" class="rounded-t-2xl object-cover h-80 w-full lg:w-full lg:h-80">
+                            <img src="img/pets/pet_2.jpg" class="rounded-t-2xl object-cover h-80 w-full lg:w-full lg:h-80">
                         </div>
                         <div class="p-5 text-center">
                             <h3 class="font-bold text-xl">PET NAME</h3>
@@ -68,7 +68,7 @@
                     </div>
                     <div class="flex-none bg-white w-96 rounded-t-2xl rounded-l-2xl mr-5 ml-5">
                         <div class="p-0 m-0 bg-cover bg-center">
-                            <img src="img/cover.png" class="rounded-t-2xl object-cover h-80 w-full lg:w-full lg:h-80">
+                            <img src="img/pets/pet_3.jpg" class="rounded-t-2xl object-cover h-80 w-full lg:w-full lg:h-80">
                         </div>
                         <div class="p-5 text-center">
                             <h3 class="font-bold text-xl">PET NAME</h3>
@@ -77,7 +77,7 @@
                     </div>
                     <div class="flex-none bg-white w-96 rounded-t-2xl rounded-l-2xl mr-5 ml-5">
                         <div class="p-0 m-0 bg-cover bg-center">
-                            <img src="img/cover.png" class="rounded-t-2xl object-cover h-80 w-full lg:w-full lg:h-80">
+                            <img src="img/pets/pet_4.jpg" class="rounded-t-2xl object-cover h-80 w-full lg:w-full lg:h-80">
                         </div>
                         <div class="p-5 text-center">
                             <h3 class="font-bold text-xl">PET NAME</h3>
@@ -86,7 +86,7 @@
                     </div>
                     <div class="flex-none bg-white w-96 rounded-t-2xl rounded-l-2xl mr-5 ml-5">
                         <div class="p-0 m-0 bg-cover bg-center">
-                            <img src="img/cover.png" class="rounded-t-2xl object-cover h-80 w-full lg:w-full lg:h-80">
+                            <img src="img/pets/pet_5.jpg" class="rounded-t-2xl object-cover h-80 w-full lg:w-full lg:h-80">
                         </div>
                         <div class="p-5 text-center">
                             <h3 class="font-bold text-xl">PET NAME</h3>
@@ -95,7 +95,7 @@
                     </div>
                     <div class="flex-none bg-white w-96 rounded-t-2xl rounded-l-2xl mr-5 ml-5">
                         <div class="p-0 m-0 bg-cover bg-center">
-                            <img src="img/cover.png" class="rounded-t-2xl object-cover h-80 w-full lg:w-full lg:h-80">
+                            <img src="img/pets/pet_6.jpg" class="rounded-t-2xl object-cover h-80 w-full lg:w-full lg:h-80">
                         </div>
                         <div class="p-5 text-center">
                             <h3 class="font-bold text-xl">PET NAME</h3>

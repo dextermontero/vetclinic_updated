@@ -1,7 +1,7 @@
 @include("partials.userpanel.components.header", [$title])
         <div class="bg-neutral-200 absolute lg:left-64 mt-4 ml-4 mr-4 w-fit">
             <div class="mb-5">
-                <h3 class="font-bold text-4xl">Dashboard</h3>
+                <h3 class="font-bold text-3xl">Dashboard</h3>
             </div>
             <div class="mb-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-4 gap-0 sm:gap-4">
                 <div class="bg-white p-4 mb-5 rounded shadow-sm max-w-full">
@@ -58,7 +58,7 @@
                 </div>
             </div>
             <div class="mb-5">
-                <h3 class="font-bold text-4xl">All Appointments</h3>
+                <h3 class="font-bold text-xl">All Appointments</h3>
             </div>
             <div class="bg-white p-4 mb-5 rounded shadow-sm max-w-full">
                 <table class="table-fixed w-full text-left p-2">
